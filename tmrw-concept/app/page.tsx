@@ -235,7 +235,7 @@ export default function Home() {
 
             <a
               href="#brands"
-              className="mt-1 block max-w-[22ch] text-[clamp(1.8rem,3vw,2.8rem)] font-bold leading-[0.95] tracking-[-0.065em] text-white/55 transition-colors duration-300 hover:text-white"
+              className="mt-1 block max-w-[22ch] text-[clamp(1.8rem,3vw,2.8rem)] font-bold leading-[0.95] tracking-[-0.065em] text-white/50 transition-colors duration-300 hover:text-white"
             >
               {slide.secondaryText}
             </a>
@@ -803,13 +803,9 @@ export default function Home() {
         <div className="mx-auto max-w-[1440px]">
           {/* Editorial masthead */}
           <div className="mb-8 flex items-center gap-4">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.22em]">
-              TMRW
-            </span>
-            <span className="h-px w-16 bg-[#b9b5ad] sm:w-28" />
-            <span className="text-[9px] uppercase tracking-[0.18em] text-[#77746e]">
-              A House of Brands
-            </span>
+            <p className="mb-4 text-[10px] font-medium uppercase tracking-[0.18em] text-[#77746e] md:text-xs">
+              TMRW / A House of Brands
+            </p>
           </div>
 
           {/* Main editorial composition */}

@@ -48,13 +48,9 @@ export default function TMRWCapabilities() {
       <div className="mx-auto max-w-[1440px]">
         {/* Section heading */}
         <div className="mb-12 flex items-center justify-between border-b border-[#eae8e5] pb-5 md:mb-16">
-          <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#77736e]">
-            Our Capabilities
+          <p className="mb-4 text-[10px] font-medium uppercase tracking-[0.18em] text-[#77746e] md:text-xs">
+            TMRW / Our Capabilities
           </p>
-
-          <span className="text-[10px] tracking-[0.14em] text-[#77736e]">
-            03 / 05
-          </span>
         </div>
 
         {/* Main content */}
